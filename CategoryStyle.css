@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 97vh;
+    background-color: rgb(178,195,210);
+    background-image: url('Movie Night (4).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.latest-movies{
+
+    position: relative;
+    width:100%;
+    height: 100%;
+    background-color: rgba(212,211,227);
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.latest-movies h1{
+    height: 40px;
+    font-size: 40px;
+    color:rgb(33, 5, 32);
+    font-family: 'Oleo Script' ;
+    
+}.latest-container{
+    padding: 6px 10px;
+}
+.latest-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-inside img{
+    height: 300px;
+    cursor: pointer;
+    padding: 20px;
+    transition: all 700ms ease-in;
+}
+.latest-inside img:hover{
+    transform: scale(1.25);
+}
+.heading1{
+    color: rgb(68, 13, 13);
+    line-height: 1.5;
+    font-family: 'Oleo Script';
+    padding: -3%;
+}
+.heading1 h4{
+    font-size: 20px;
+}
+
+.btn2{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #959595;
+  text-align: left;
+  vertical-align: top;
+  padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
+  background-color: #00000000;
+  font-size:14px;
+  letter-spacing: 0.16px;
+  min-height: 48px;
+  line-height: 1.29;
+  color: #959595;
+  font-weight: 400;
+}
+.btn2 a{
+    font-size: 10px;
+    text-decoration: none;
+    background: rgb(14, 99, 116);
+    padding: 5px 7px;
+    border-radius: 30%;
+    color: white;
+    font-family: Oleo Script;
+}
+    .checked{
+        color: rgb(56, 244, 43);
+        font-weight: bold;
+        font-size: 30px;
+    }
+  
+    .btn2{
+        margin-top: 30px;
+    }
+    .btn2 a{
+        background-color: teal;
+        color: white;
+        padding: 4px 20px;
+        text-decoration:none ;
+        border-radius: 3px;
+    }
+    .btn2 a:hover{
+        background: rgb(241, 41, 41);
+        color: teal;
+    }
+    
+    .btn2 i{
+        color:rgb(248, 248, 248);
+        padding: 0px 3px;
+    }
+    .btn2 i:hover{
+        color: white;
+    }
+    .poster{
+        margin-top: 100px;
+        margin-right: 250px;
+    }
+    .poster img{
+        height:300px;
+      
+        float: right;
+        border-radius: 10px;
+    }

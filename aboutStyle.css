@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.about_section{
+    background: url('Untitled design (6).png') no-repeat left;
+    background-size: 50%;
+    background-color: rgb(164, 78, 251);
+    padding: 60px;
+}
+.container{
+    width: 59%;
+    float: right;
+    background-color: antiquewhite;
+    padding: 150px;
+}
+.container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.text{
+    font-size: 13px;
+    color: rgb(8, 53, 38);
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}

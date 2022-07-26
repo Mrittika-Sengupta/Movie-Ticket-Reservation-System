@@ -1,0 +1,41 @@
+body{
+    background-image: url('Movie Night (3).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main{
+    max-width: 800px;
+    margin: 5vh auto;
+    padding: 6px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: rgb(23, 3, 3);
+}
+h2{
+    font-size: 1.1em;
+    font-weight: 900px;
+    color:black
+}
+.faq{
+    padding: 16px 30px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+.faq h2{
+    color: rgb(106, 9, 9);
+}
+.faq p{
+    display: none;
+    font-weight: 400px;
+    color: black;
+}
+.faq p{
+    display: block;
+}
