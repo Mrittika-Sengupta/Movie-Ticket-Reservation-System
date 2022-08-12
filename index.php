@@ -44,6 +44,8 @@
                 <div class="dropbtn">Category
                     <i class="fa fa-caret-down"></i>
                 </div>
+    
+
                 <div class="dropdown-content">
                     <a href="Action.html">Action</a>
                     <a href="Liberation.html">Liberation War</a>
@@ -51,23 +53,170 @@
                     <a href="Commedy.html">Commedy</a>
                 </div>
                 </div>
+                
             </div>
         
-            <a href="" >Location</a>
-            <a href="" >Ticket Price</a>
-            <a href="" >Showtime</a>
+            <a href="Location.html" >Location</a>
+            <a href="TicketPrice.html" >Ticket Price</a>
+            <a href="Showtime.html" >Showtime</a>
 			<a href="index.php?logout='1'" style="color: black;">logout</a> 
 			<?php  if (isset($_SESSION['username'])) : ?>
     	<a>Welcome <strong><?php echo $_SESSION['username']; ?></strong></a>
     	
     <?php endif ?>
-            <div class="search-box">
-           
-                <input class="search-txt" type="text" name="" placeholder="Find Your Favourite Movies">
-                <a class="search-btn" href="#">
-                    <i class= "fa fa-search"></i>
-                </a>
-            </div>
+    
+    <div class="search-box">
+         
+            
+         <input class="search-txt"  type="text" name="" placeholder="Find Your Favourite Movies" id="search">
+         <a class="search-btn" href="">
+         <i class="fa fa-search"></i>
+         </a>
+         <div class="search_bx2">
+             <a href="Action.html">
+                 <img src="kidnap.jpg" alt="">
+             <div class="content2">
+                 <h6>kidnap</h6>
+                 <p>Action Movie</p>
+
+
+             </div>
+             </a>
+             <a href="Action.html">
+                 <img src="shaan.jpg" alt="">
+             <div class="content2">
+                 <h6>shaan</h6>
+                 <p>Action Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Action.html">
+                 <img src="mission extreme.jpg" alt="">
+             <div class="content2">
+                 <h6>mission extreme</h6>
+                 <p>Action Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Action.html">
+                 <img src="dhaka attack.jpg" alt="">
+             <div class="content2">
+                 <h6>Dhaka Attack</h6>
+                 <p>Action Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Liberation.html">
+                 <img src="shamol chaya.jpg" alt="">
+             <div class="content2">
+                 <h6>shamol chaya</h6>
+                 <p>Liberation War</p>
+                 
+         </div>
+        
+</a>
+<a href="Liberation.html">
+                 <img src="gerila.jpg" alt="">
+             <div class="content2">
+                 <h6>gerila</h6>
+                 <p>Liberation War</p>
+                 
+         </div>
+        
+</a>
+<a href="Liberation.html">
+                 <img src="joyjatra.jpg" alt="">
+             <div class="content2">
+                 <h6>Joyjatra</h6>
+                 <p>Liberation War</p>
+                 
+         </div>
+        
+</a>
+<a href="Liberation.html">
+                 <img src="ora 11 jon.jpg" alt="">
+             <div class="content2">
+                 <h6>ora 11 jon</h6>
+                 <p>Liberation War</p>
+                 
+         </div>
+        
+</a>
+<a href="Thriller.html">
+                 <img src="guptodhoner sondhane.jpg" alt="">
+             <div class="content2">
+                 <h6>guptodhoner shondhane</h6>
+                 <p>Thriller Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Thriller.html">
+                 <img src="chander pahar.jpg" alt="">
+             <div class="content2">
+                 <h6>chander pahar</h6>
+                 <p>Thriller Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Thriller.html">
+                 <img src="dipu number 2.jpg" alt="">
+             <div class="content2">
+                 <h6>dipu number 2</h6>
+                 <p>Thriller Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Thriller.html">
+                 <img src="amar bondhu rashed.jpg" alt="">
+             <div class="content2">
+                 <h6>amar bondhu rashed</h6>
+                 <p>Thriller Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Commedy.html">
+                 <img src="googly.jpg" alt="">
+             <div class="content2">
+                 <h6>googly</h6>
+                 <p>Commedy Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Commedy.html">
+                 <img src="gupi gain bagha bain.jpg" alt="">
+             <div class="content2">
+                 <h6>gupi gain bagha bain</h6>
+                 <p>Commedy Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Commedy.html">
+                 <img src="hirak rajar deshe.jpg" alt="">
+             <div class="content2">
+                 <h6>hirak rajar deshe</h6>
+                 <p>Commedy Movie</p>
+                 
+         </div>
+        
+</a>
+<a href="Commedy.html">
+                 <img src="goynar baksho.jpg" alt="">
+             <div class="content2">
+                 <h6>goynar baksho</h6>
+                 <p>Commedy Movie</p>
+                 
+         </div>
+        
+</a>
         </ul>
         <section>
         <div class="latest-movies">
@@ -140,7 +289,7 @@
                     <div class="footer-col">
                         <ul>
                             <li><a href="about us.html">about us</a></li>
-                            <li><a href="contact us.html">contact us</a></li>
+                            <li><a href="contact.php">contact us</a></li>
                             <li><a href="Faq.html">faq</a></li>
                         </ul>
                     </div>
@@ -176,6 +325,6 @@
   	<?php endif ?>
 
    
-		
+      <script src="searchbar.js"></script> 
 </body>
 </html>

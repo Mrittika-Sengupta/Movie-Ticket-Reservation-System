@@ -9,6 +9,7 @@
 <link rel="shortcut icon" href="Untitled design (1).png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@1,700&family=Nunito:wght@300&family=Oleo+Script&display=swap');
     </style>
@@ -24,7 +25,7 @@
     </video>
     
     </div>
-    <nav>
+
     <ul class="menu">
             <img src="Untitled design (1).png" class="logo">
             <div class="dropdown">
@@ -41,16 +42,163 @@
             </div>
             <a href="login.php" >Login</a>
             <a href="register.php" >Register</a>
-            <a href="" >Location</a>
+            <a href="login.php" >Location</a>
             <a href="ticketPrice.html" >Ticket Price</a>
-            <a href="" >Showtime</a>
+            <a href="Showtime.html" >Showtime</a>
+            
+            
+   
             <div class="search-box">
-           
-                <input class="search-txt" type="text" name="" placeholder="Find Your Favourite Movies">
-                <a class="search-btn" href="#">
-                    <i class= "fa fa-search"></i>
+                <input class="search-txt"  type="text" name="" placeholder="Find Your Favourite Movies" id="search">
+                <a class="search-btn" href="">
+                <i class="fa fa-search"></i>
                 </a>
-            </div>
+                <div class="search_bx2">
+                    <a href="Action.html">
+                        <img src="kidnap.jpg" alt="">
+                    <div class="content2">
+                        <h6>kidnap</h6>
+                        <p>Action Movie</p>
+
+
+                    </div>
+                    </a>
+                    <a href="Action.html">
+                        <img src="shaan.jpg" alt="">
+                    <div class="content2">
+                        <h6>shaan</h6>
+                        <p>Action Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Action.html">
+                        <img src="mission extreme.jpg" alt="">
+                    <div class="content2">
+                        <h6>mission extreme</h6>
+                        <p>Action Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Action.html">
+                        <img src="dhaka attack.jpg" alt="">
+                    <div class="content2">
+                        <h6>Dhaka Attack</h6>
+                        <p>Action Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Liberation.html">
+                        <img src="shamol chaya.jpg" alt="">
+                    <div class="content2">
+                        <h6>shamol chaya</h6>
+                        <p>Liberation War</p>
+                        
+                </div>
+               
+</a>
+<a href="Liberation.html">
+                        <img src="gerila.jpg" alt="">
+                    <div class="content2">
+                        <h6>gerila</h6>
+                        <p>Liberation War</p>
+                        
+                </div>
+               
+</a>
+<a href="Liberation.html">
+                        <img src="joyjatra.jpg" alt="">
+                    <div class="content2">
+                        <h6>Joyjatra</h6>
+                        <p>Liberation War</p>
+                        
+                </div>
+               
+</a>
+<a href="Liberation.html">
+                        <img src="ora 11 jon.jpg" alt="">
+                    <div class="content2">
+                        <h6>ora 11 jon</h6>
+                        <p>Liberation War</p>
+                        
+                </div>
+               
+</a>
+<a href="Thriller.html">
+                        <img src="guptodhoner sondhane.jpg" alt="">
+                    <div class="content2">
+                        <h6>guptodhoner shondhane</h6>
+                        <p>Thriller Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Thriller.html">
+                        <img src="chander pahar.jpg" alt="">
+                    <div class="content2">
+                        <h6>chander pahar</h6>
+                        <p>Thriller Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Thriller.html">
+                        <img src="dipu number 2.jpg" alt="">
+                    <div class="content2">
+                        <h6>dipu number 2</h6>
+                        <p>Thriller Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Thriller.html">
+                        <img src="amar bondhu rashed.jpg" alt="">
+                    <div class="content2">
+                        <h6>amar bondhu rashed</h6>
+                        <p>Thriller Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Commedy.html">
+                        <img src="googly.jpg" alt="">
+                    <div class="content2">
+                        <h6>googly</h6>
+                        <p>Commedy Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Commedy.html">
+                        <img src="gupi gain bagha bain.jpg" alt="">
+                    <div class="content2">
+                        <h6>gupi gain bagha bain</h6>
+                        <p>Commedy Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Commedy.html">
+                        <img src="hirak rajar deshe.jpg" alt="">
+                    <div class="content2">
+                        <h6>hirak rajar deshe</h6>
+                        <p>Commedy Movie</p>
+                        
+                </div>
+               
+</a>
+<a href="Commedy.html">
+                        <img src="goynar baksho.jpg" alt="">
+                    <div class="content2">
+                        <h6>goynar baksho</h6>
+                        <p>Commedy Movie</p>
+                        
+                </div>
+               
+</a>
+
         </ul>
         <section>
         <div class="latest-movies">
@@ -123,7 +271,7 @@
                     <div class="footer-col">
                         <ul>
                             <li><a href="about us.html">about us</a></li>
-                            <li><a href="contact us.html">contact us</a></li>
+                            <li><a href="contact.html">contact us</a></li>
                             <li><a href="Faq.html">faq</a></li>
                         </ul>
                     </div>
@@ -142,7 +290,9 @@
                 </div>
             </div>
            </footer>
-        </nav>
+      
            </section>
+           <script src="searchbar.js"></script> 
+    
 </body>
 </html>

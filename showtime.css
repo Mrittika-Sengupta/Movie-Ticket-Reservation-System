@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #161616;
+    color: #ffe7c8;
+    font-size: .9rem;
+    padding: 5rem;
+}
+
+.card {
+    width: clamp(300px, 95vw, 900px);
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    margin: 5rem 0;
+}
+.img-1 {
+    width: 150px;
+    height: 200px;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 200ms ease-in-out transform;
+}
+.top {
+    display: flex;
+    width: 95%;
+}
+.movie-info-container {
+    width: 60%
+}
+.general-info {
+    margin-left: 2rem;
+    flex: 1;
+}
+.general-info h2 {
+    margin-bottom: 1rem;
+}
+.movie-info {
+    margin-top: 2rem;
+    width: 90%;
+}
+.general-info div {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.img-2 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    opacity: .6;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 30%;
+    width: 10%;
+    height: 100%;
+    background-image: linear-gradient(to right, #161616, transparent);
+    z-index: 2;
+}
+.card:hover .img-2 img {
+    transform: scale(1.1);
+}
+
+.card:first-child,
+.card:first-child .img-1 {
+    box-shadow: 0 0 1rem #ff0000;
+}
+.card:first-child .general-info div span:last-of-type {
+    font-weight: 700;
+    color: #ff3939;
+}
+
+.card:last-child,
+.card:last-child .img-1 {
+    box-shadow: 0 0 1rem rgba(255, 166, 0, .8);
+}
+.card:last-child .general-info div span:last-of-type {
+    font-weight: 700;
+    color: #ffa600;
+}
+.btn-group button {
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    width: 25%;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+ 
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+
+table, th, td {
+  border:1px solid rgb(255, 255, 255);
+  text-align: center;
+  
+}

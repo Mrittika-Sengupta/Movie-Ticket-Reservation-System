@@ -58,7 +58,7 @@ body{
   .price-feature ul li {
     margin-bottom: 5px;
     padding-bottom: 5px;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed rgb(242, 224, 224);
   }
   .price-feature ul li.price-icon-check i {
     color: teal;
