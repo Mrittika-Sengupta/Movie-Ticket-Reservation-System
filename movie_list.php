@@ -35,7 +35,7 @@
 </nav>
 
 
-	<div class="jumbotron" style="background:url('image/register.jpg') no-repeat; height:400px; background-size:cover;"></div>
+	<div class="jumbotron" style="background:url('image/movie.jpg') no-repeat; height:400px; background-size:cover;"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
@@ -86,6 +86,9 @@
 								<td><?php echo $info['start_time'];?></td>
 								<td><?php echo $info['end_time'];?></td>
 								<td><?php echo $info['date'];?></td>
+
+								<td><a href="update.php?id=<?php echo $info["movie_id"]; ?>">Update</a></td>
+
 							
 							</tr>
 						<?php	

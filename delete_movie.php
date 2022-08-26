@@ -36,7 +36,7 @@
 </nav>
 
 
-	<div class="jumbotron" style="background:url('image/register.jpg') no-repeat; height:400px; background-size:cover;"></div>
+	<div class="jumbotron" style="background:url('image/poran.jpg') no-repeat; height:400px; background-size:cover;"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">

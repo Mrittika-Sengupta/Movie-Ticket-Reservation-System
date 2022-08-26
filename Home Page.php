@@ -44,7 +44,7 @@
             <a href="register.php" >Register</a>
             <a href="login.php" >Location</a>
             <a href="ticketPrice.html" >Ticket Price</a>
-            <a href="Showtime.html" >Showtime</a>
+            <a href="login.php" >Showtime</a>
             
             
    
